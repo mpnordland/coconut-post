@@ -1,0 +1,10 @@
+---
+title: {{title}}
+author: {{author}}
+tags: 
+{{#tags}}
+ - {{.}} {{! This wrong seeming setup means there won't be a extra newline between the tag list and the date }}
+{{/tags}}date: {{date}}
+---
+
+{{body}}
