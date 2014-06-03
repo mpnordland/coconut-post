@@ -15,7 +15,7 @@ const DateFormat = "Jan _2 2006 15:04"
 
 
 const Tmpl = `---
-title: {{title}}
+title: {{{title}}}
 author: {{author}}
 image: {{image}}
 tags: 
